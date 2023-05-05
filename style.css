@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #CDCDCD;
+}
+.nav h1{
+    background-color: black;
+    color:white;
+    padding:20px;
+}
+.nav h1:hover {
+    color:aqua;
+    cursor: pointer;
+    font-size:34px;
+}
+#search{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-top: 20px;
+
+}
+#search input {
+width: 80%;
+padding: 12px;
+font-size: 24px;
+color:black;
+}
+
+
+#search button {
+padding: 10px 0;
+width: 15.5%;
+font-size: 24px;
+background-color: black;
+color: white;
+}
+#search button:hover{
+    cursor: pointer;
+    font-size:26px;
+}
+
+#btn{
+    display: flex; 
+    justify-content: space-evenly;
+    padding: 20px ;
+
+}
+#btn button{
+    background-color: black; 
+    padding-top: 20px; 
+    padding: 10px;
+    width: 217px;
+    font-size: 24px;
+    color: white;
+}
+#btn button:hover {
+    font-size: 24.5px;
+    cursor: pointer;
+}
+.avatar-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #mytable{
+    width: 100%;
+    border-collapse: collapse;
+    padding:20px;
+
+  }
+  
+ table,th,td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #mytable th {
+    background-color: #ccc;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  #mytable td.avatar-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #mytabel .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+ #mytable .avatar:hover {
+    width: 53px;
+    height:53px;
+    cursor: pointer;
+ } 
